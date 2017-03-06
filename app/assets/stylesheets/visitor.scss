@@ -9,19 +9,82 @@
 /* Feel free to copy&paste color codes to your application */
 
 body {
-  background-color: #FFAAAA;
+  background-color: #000000;
+  color: #FFAAAA;
+  margin: 0 0 0 0;
+}
+
+p {
+  margin: 0 50px 0 50px;
+}
+.tiamat {
+    padding: 100px;
+    position: relative;
+    margin: 0 0 0 0;
+    background-size: cover;
 }
 
 .tiamat img {
-  background-size: cover;
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
+  opacity: .5;
 }
 
+h1 {
+    padding: 0 0 0 0;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1;
+    font-size: 45px;
+    color: #550000;
+    margin: 0 0 0 50px;
+    text-shadow: 2px 2px 2px #D46A6A;
+  }
+
+h2 {
+    padding: 0 0 0 0;
+    vertical-align: middle;
+    text-align: left;
+    z-index: 1;
+    font-size: 45px;
+    color: #550000;
+    margin: 0 0 0 50px;
+    text-shadow: 2px 2px 2px #D46A6A;
+  }
+
+ul {
+  margin: 0 0 0 50px;
+  list-style: none;
+}
+
+ul img {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+li {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+}
+
+.dropcap {
+  font-size: 30px;
+  color: #550000;
+  text-shadow: 1px 1px 2px #D46A6A
+
+}
+
+.horiz_rule {
+  border-top: 3px double #550000;
+  width: 85%;
+}
 
 /* As hex codes */
 
@@ -30,17 +93,6 @@ body {
 .color-primary-2 { color: #D46A6A }
 .color-primary-3 { color: #801515 }
 .color-primary-4 { color: #550000 }
-
-
-
-/* As RGBa codes */
-
-.rgba-primary-0 { color: rgba(170, 57, 57,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(255,170,170,1) }
-.rgba-primary-2 { color: rgba(212,106,106,1) }
-.rgba-primary-3 { color: rgba(128, 21, 21,1) }
-.rgba-primary-4 { color: rgba( 85,  0,  0,1) }
-
 
 
 
