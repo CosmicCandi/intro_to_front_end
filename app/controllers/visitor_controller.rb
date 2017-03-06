@@ -1,2 +1,4 @@
 class VisitorController < ApplicationController
+
+
 end
